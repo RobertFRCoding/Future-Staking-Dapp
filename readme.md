@@ -107,4 +107,10 @@ This project is licensed under the MIT License. See the [LICENSE](./LICENSE) fil
 
 ---
 
+## 📬 Contact
+If you'd like to contact me for any DApp development, feel free to reach out at:
+- **Email:** robertfuentes26@gmail.com
+
+---
+
 **Thanks for exploring the Futuristic Staking Platform!** If you have any questions or suggestions, feel free to open an *issue*.
