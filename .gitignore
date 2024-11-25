@@ -1,0 +1,14 @@
+# Node.js dependencies
+node_modules/
+
+# Build files
+build/
+
+# Environment secrets
+.env
+.secret
+
+# Truffle and Ganache
+*.log
+.cache/
+contracts/build/
