@@ -1,18 +1,18 @@
-# Plataforma de Staking Futurista
+# Futuristic Staking Platform
 
-Una DApp que permite a los usuarios conectar su billetera, stakear tokens `ROB` y ganar recompensas en `CAT`. Construida con **React**, **Truffle** y **Ganache** para una experiencia completa en la blockchain.
-
----
-
-## 🚀 Funcionalidades
-- **Stakear Tokens:** Deposita tokens `ROB` y comienza a ganar recompensas.
-- **Recompensas en Tiempo Real:** Recibe tokens `CAT` como recompensa proporcional al staking realizado.
-- **Interfaz Intuitiva:** Conexión rápida con Metamask, visualización de balances y estado del staking.
+A decentralized application (DApp) that allows users to connect their wallet, stake `ROB` tokens, and earn rewards in `CAT` tokens. Built with **React**, **Truffle**, and **Ganache** for a complete blockchain experience.
 
 ---
 
-## 🛠️ Requisitos
-Asegúrate de tener instalados:
+## 🚀 Features
+- **Stake Tokens:** Deposit `ROB` tokens and start earning rewards.
+- **Real-Time Rewards:** Receive `CAT` tokens as rewards based on your staking amount.
+- **User-Friendly Interface:** Quick connection with Metamask, balance visualization, and staking status.
+
+---
+
+## 🛠️ Requirements
+Make sure you have the following installed:
 - [Node.js](https://nodejs.org/)
 - [Ganache](https://trufflesuite.com/ganache/)
 - [Truffle](https://trufflesuite.com/)
@@ -20,91 +20,91 @@ Asegúrate de tener instalados:
 
 ---
 
-## 📥 Instalación
+## 📥 Installation
 
-1. **Clona el repositorio** y accede al directorio:
+1. **Clone the repository** and navigate to the project folder:
    ```bash
    git clone https://github.com/RobertFRCoding/Future-Staking-Dapp.git
    cd Future-Staking-Dapp
    ```
 
-2. **Instala las dependencias necesarias**:
+2. **Install the necessary dependencies**:
    ```bash
    npm install
    ```
 
-3. **Compila y migra los contratos**:
+3. **Compile and migrate the contracts**:
    ```bash
    truffle compile
    truffle migrate --network development
    ```
 
-4. **Inicia Ganache** y configura la red en MetaMask (usa las claves proporcionadas por Ganache).
+4. **Start Ganache** and configure the network on MetaMask (use the keys provided by Ganache).
 
-5. **Ejecuta la aplicación React**:
+5. **Run the React application**:
    ```bash
    npm start
    ```
 
 ---
 
-## 💡 Uso de la Plataforma
+## 💡 How to Use the Platform
 
-1. **Conecta tu billetera**:
-   - Abre la aplicación en el navegador.
-   - Usa Metamask para conectar tu billetera.
+1. **Connect your wallet**:
+   - Open the app in your browser.
+   - Use Metamask to connect your wallet.
 
-2. **Stakear Tokens**:
-   - Ingresa la cantidad de tokens `ROB` que deseas stakear.
-   - Haz clic en el botón *Stake*.
+2. **Stake Tokens**:
+   - Enter the amount of `ROB` tokens you want to stake.
+   - Click on the *Stake* button.
 
-3. **Retirar Tokens**:
-   - Haz clic en *Unstake* para liberar tus tokens `ROB`.
+3. **Unstake Tokens**:
+   - Click *Unstake* to release your `ROB` tokens.
 
-4. **Generar Recompensas**:
-   - Ejecuta el script para distribuir tokens `CAT` como recompensas:
+4. **Generate Rewards**:
+   - Run the script to distribute `CAT` tokens as rewards:
      ```bash
      truffle exec scripts/issue-token.js
      ```
-   - Este script asignará automáticamente tokens `CAT` en proporción al staking realizado.
+   - This script will automatically assign `CAT` tokens in proportion to the amount of `ROB` tokens staked.
 
 ---
 
-## 🔧 Scripts Disponibles
-- **Migración de contratos**:  
+## 🔧 Available Scripts
+- **Migrate contracts**:  
    ```bash
    truffle migrate --network development
    ```
-- **Distribuir recompensas**:  
+- **Distribute rewards**:  
    ```bash
    truffle exec scripts/issue-token.js
    ```
 
 ---
 
-## 🖥️ Tecnologías Utilizadas
-- **Solidity**: Contratos inteligentes.
-- **Truffle**: Framework de desarrollo blockchain.
-- **Ganache**: Blockchain local para pruebas.
-- **React.js**: Interfaz de usuario.
-- **Web3.js**: Interacción con la blockchain.
+## 🖥️ Technologies Used
+- **Solidity**: Smart contracts.
+- **Truffle**: Blockchain development framework.
+- **Ganache**: Local blockchain for testing.
+- **React.js**: User interface.
+- **Web3.js**: Interaction with the blockchain.
 
 ---
 
-## 🤝 Contribución
-¡Contribuciones son bienvenidas! Por favor:
-1. Haz un fork del repositorio.
-2. Crea una rama nueva:  
+## 🤝 Contributing
+Contributions are welcome! Please:
+1. Fork the repository.
+2. Create a new branch:  
    ```bash
-   git checkout -b feature/nueva-funcionalidad
+   git checkout -b feature/new-feature
    ```
-3. Envía un *pull request* con tus mejoras.
+3. Submit a *pull request* with your improvements.
 
 ---
 
-## 📜 Licencia
-Este proyecto está bajo la licencia MIT. Consulta el archivo [LICENSE](./LICENSE) para más detalles.
+## 📜 License
+This project is licensed under the MIT License. See the [LICENSE](./LICENSE) file for more details.
 
 ---
 
-**¡Gracias por explorar la Plataforma de Staking Futurista!** Si tienes preguntas o sugerencias, no dudes en abrir un *issue*.
+**Thanks for exploring the Futuristic Staking Platform!** If you have any questions or suggestions, feel free to open an *issue*.
