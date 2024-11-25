@@ -1,60 +1,110 @@
 # Plataforma de Staking Futurista
 
-Una DApp de staking que permite a los usuarios conectar su billetera, stakear tokens `ROB` y ganar recompensas en `CAT`. Construida con React, Truffle y Ganache.
+Una DApp que permite a los usuarios conectar su billetera, stakear tokens `ROB` y ganar recompensas en `CAT`. Construida con **React**, **Truffle** y **Ganache** para una experiencia completa en la blockchain.
 
 ---
 
-## Funcionalidades
-- **Stakear Tokens:** Deposita tus tokens `ROB` para ganar recompensas.
-- **Retirar Recompensas:** Recibe tokens `CAT` como recompensa por tu staking.
-- **Interfaz Interactiva:** Fácil conexión y visualización de balances.
+## 🚀 Funcionalidades
+- **Stakear Tokens:** Deposita tokens `ROB` y comienza a ganar recompensas.
+- **Recompensas en Tiempo Real:** Recibe tokens `CAT` como recompensa proporcional al staking realizado.
+- **Interfaz Intuitiva:** Conexión rápida con Metamask, visualización de balances y estado del staking.
 
 ---
 
-## Requisitos
-- Node.js
-- Ganache
-- Truffle
-- Metamask
+## 🛠️ Requisitos
+Asegúrate de tener instalados:
+- [Node.js](https://nodejs.org/)
+- [Ganache](https://trufflesuite.com/ganache/)
+- [Truffle](https://trufflesuite.com/)
+- [MetaMask](https://metamask.io/)
 
 ---
 
-## Instalación
+## 📥 Instalación
 
-1. Clona el repositorio y accede al proyecto:
+1. **Clona el repositorio** y accede al directorio:
    ```bash
-   git clone https://github.com/tu-usuario/tu-repo.git
-   cd tu-repo
-Instala las dependencias necesarias:
+   git clone https://github.com/RobertFRCoding/Future-Staking-Dapp.git
+   cd Future-Staking-Dapp
+   ```
 
-bash
-Copiar código
-npm install
-Compila y migra los contratos:
+2. **Instala las dependencias necesarias**:
+   ```bash
+   npm install
+   ```
 
-bash
-Copiar código
-truffle compile
-truffle migrate --network development
-Inicia Ganache y configura la red local en Metamask.
+3. **Compila y migra los contratos**:
+   ```bash
+   truffle compile
+   truffle migrate --network development
+   ```
 
-Inicia la aplicación React:
+4. **Inicia Ganache** y configura la red en MetaMask (usa las claves proporcionadas por Ganache).
 
-bash
-Copiar código
-npm start
-Uso de la Plataforma
-Conexión: Abre la aplicación y conecta tu billetera desde Metamask.
+5. **Ejecuta la aplicación React**:
+   ```bash
+   npm start
+   ```
 
-Stakear Tokens: Ingresa la cantidad de tokens ROB que deseas stakear y haz clic en Stake.
+---
 
-Retirar Tokens: Si deseas liberar tus tokens, haz clic en Unstake.
+## 💡 Uso de la Plataforma
 
-Generar Recompensas
-Cuando los usuarios tienen tokens en staking, puedes distribuir las recompensas en tokens CAT. Para hacerlo, ejecuta el siguiente comando en la terminal:
+1. **Conecta tu billetera**:
+   - Abre la aplicación en el navegador.
+   - Usa Metamask para conectar tu billetera.
 
-bash
-Copiar código
-truffle exec scripts/issue-token.js
-Este script asignará automáticamente la misma cantidad de tokens CAT que los tokens ROB stakeados.
+2. **Stakear Tokens**:
+   - Ingresa la cantidad de tokens `ROB` que deseas stakear.
+   - Haz clic en el botón *Stake*.
 
+3. **Retirar Tokens**:
+   - Haz clic en *Unstake* para liberar tus tokens `ROB`.
+
+4. **Generar Recompensas**:
+   - Ejecuta el script para distribuir tokens `CAT` como recompensas:
+     ```bash
+     truffle exec scripts/issue-token.js
+     ```
+   - Este script asignará automáticamente tokens `CAT` en proporción al staking realizado.
+
+---
+
+## 🔧 Scripts Disponibles
+- **Migración de contratos**:  
+   ```bash
+   truffle migrate --network development
+   ```
+- **Distribuir recompensas**:  
+   ```bash
+   truffle exec scripts/issue-token.js
+   ```
+
+---
+
+## 🖥️ Tecnologías Utilizadas
+- **Solidity**: Contratos inteligentes.
+- **Truffle**: Framework de desarrollo blockchain.
+- **Ganache**: Blockchain local para pruebas.
+- **React.js**: Interfaz de usuario.
+- **Web3.js**: Interacción con la blockchain.
+
+---
+
+## 🤝 Contribución
+¡Contribuciones son bienvenidas! Por favor:
+1. Haz un fork del repositorio.
+2. Crea una rama nueva:  
+   ```bash
+   git checkout -b feature/nueva-funcionalidad
+   ```
+3. Envía un *pull request* con tus mejoras.
+
+---
+
+## 📜 Licencia
+Este proyecto está bajo la licencia MIT. Consulta el archivo [LICENSE](./LICENSE) para más detalles.
+
+---
+
+**¡Gracias por explorar la Plataforma de Staking Futurista!** Si tienes preguntas o sugerencias, no dudes en abrir un *issue*.
